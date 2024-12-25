@@ -1,0 +1,68 @@
+[
+    {
+        "nombre": "Susurros de la Noche",
+        "numero": "#1",
+        "imagen": "images/poema1.png",
+        "archivo": "poemas/poema1.txt"
+    },
+    {
+        "nombre": "Reflejos del Alma",
+        "numero": "#2",
+        "imagen": "images/poema2.png",
+        "archivo": "poemas/poema2.txt"
+    },
+    {
+        "nombre": "Entre las Sombras",
+        "numero": "#3",
+        "imagen": "images/poema3.png",
+        "archivo": "poemas/poema3.txt"
+    },
+    {
+        "nombre": "Entre las Sombras",
+        "numero": "#3",
+        "imagen": "images/poema3.png",
+        "archivo": "poemas/poema3.txt"
+    },
+    {
+        "nombre": "Entre las Sombras",
+        "numero": "#3",
+        "imagen": "images/poema3.png",
+        "archivo": "poemas/poema3.txt"
+    },
+    {
+        "nombre": "Entre las Sombras",
+        "numero": "#3",
+        "imagen": "images/poema3.png",
+        "archivo": "poemas/poema3.txt"
+    },
+    {
+        "nombre": "Reflejos del Alma",
+        "numero": "#2",
+        "imagen": "images/poema2.png",
+        "archivo": "poemas/poema2.txt"
+    },
+    {
+        "nombre": "Entre las Sombras",
+        "numero": "#3",
+        "imagen": "images/poema3.png",
+        "archivo": "poemas/poema3.txt"
+    },
+    {
+        "nombre": "Entre las Sombras",
+        "numero": "#3",
+        "imagen": "images/poema3.png",
+        "archivo": "poemas/poema3.txt"
+    },
+    {
+        "nombre": "Entre las Sombras",
+        "numero": "#3",
+        "imagen": "images/poema3.png",
+        "archivo": "poemas/poema3.txt"
+    },
+    {
+        "nombre": "Entre las Sombras",
+        "numero": "#3",
+        "imagen": "images/poema3.png",
+        "archivo": "poemas/poema3.txt"
+    }
+]

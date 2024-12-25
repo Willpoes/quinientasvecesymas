@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:300,400&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #efefbb;
+    background-image: linear-gradient(90deg, #1d001dd8, #474747cb);
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+.poema-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+}
+
+.poema-card {
+    background-color: #eee;
+    border-radius: 10px;
+    box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    width: 220px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.poema-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 20px rgba(100, 100, 100, 0.8);
+}
+
+.img-container {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img {
+    max-width: 90%;
+    border-radius: 50%;
+}
+
+.info {
+    margin-top: 15px;
+}
+
+.info .numero {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: 0.8em;
+}
+
+.info .nombre {
+    margin: 15px 0 7px;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.poema-modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    max-height: 80%;
+    overflow-y: auto;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content button {
+    background: #7158e2;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.modal-content button:hover {
+    background: #583bbf;
+}
+
+#contenido-poema {
+    white-space: pre-wrap;
+    font-size: 1rem;
+    color: #333;
+}
+
+/* **** */
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 0.1rem;
+        margin-bottom: 5px;
+    }
+
+    .poema-container {
+        gap: 10px;
+    }
+
+    .poema-card {
+        width: 45%;
+        padding: 15px;
+    }
+
+    .img-container {
+        height: 80px;
+        width: 80px;
+    }
+
+    .img-container img {
+        max-width: 70%;
+    }
+
+    .modal-content {
+        padding: 10px;
+    }
+
+    #contenido-poema {
+        font-size: 0.9rem;
+    }
+}
